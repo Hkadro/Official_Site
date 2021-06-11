@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heaven Kadro</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bilbo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+  <div class="top-container">
+	<div id="app"></div>
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <h2>Hello.</h2>
+      <p class="Intro">My name is Heaven Kadro and I am a fourth year Computer Science Student at Hunter College. 
+        I am based in NYC. I am actively seeking out Cybersecurity oppurtunities. I am open to a range of positions from UI design to Back-End. </p>
+    </div>
+    <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="Computer" src="https://media.giphy.com/media/gi84IkFRzwube/giphy.gif" alt="Computer">
+          <p>My coding skills include HTML5,CSS, and C++. I am also currently working on mastering Python and Javascript, and have experience in UNIX.I also have experience working on teams to develop websites. </p>
+        </div>
+      </div>
+    </div>
+
+<div class="next-container">
+        <div class="skill-row">
+          <h2>Art Endeavors</h2>
+          <p> In my downtime I enjoy hiking and watching archaeology and nature documentries. 
+          I also enjoy doing puzzles and painting. Here is Some of My Work!</p>
+        </div>
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="Images/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="Images/img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="Images/img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="Images/img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="Images/img1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="Images/img2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="Images/img3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="Images/img4.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="Images/img1.jpg" onclick="currentSlide(1)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Images/img2.jpg" onclick="currentSlide(2)" alt="Roses">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Images/img3.jpg" onclick="currentSlide(3)" alt="Four Division">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Images/img4.jpg" onclick="currentSlide(4)" alt="Splatter">
+    </div>
+  </div>
+</div>
+
+</div>
+  <div class="big-container">
+    <div class="projects">
+      <h2>Featured Projects</h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/CSCI1.jpg" class="d-block w-100" alt="Cross Project">
+           </a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Cross Project</h5>
+              <p1>Made Using MIPS on the MARS IDE this project recieves an input size and color and changes according to those conventions,
+              while staying centered the whole time. The most challenging part of this project was getting the initial horizontal rectangle 
+            to appear properly.</p1>
+            </div>
+        </div>
+          <div class="carousel-item">
+            <a href="https://devpost.com/software/regional-recipes-xnweld">
+            <img src="Images/RRimg.png" class="d-block w-100" alt="RegionalRecepie">
+            </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Regional Recepies</h5>
+            <p1>Inspired by the quarantine this website compiles recepies from all over the world in one place so that users are able to fill out 
+              a form and be matched to different cusines. Built with JavaScript, Bootstrap, HTML, and CSS.  </p1>
+          </div>
+        </div>
+          <div class="carousel-item">
+            <a href="https://devpost.com/software/educate-7tv08s">
+            <img src="Images/eduCATe - css site.jpg" class="d-block w-100" alt="eduCATe">
+            </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>eduCATe</h5>
+            <p1>This app was built to inspire students to study on thier own, due to the loss in educational instruction that
+              has impacted many kids during the pandemic. Inspired by gachapon users collect cats while studying in specific intervals.
+              This app was built on android studio using Java and Firebase. 
+            </p1>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  </div>
+
+  <div class="bottom-container">
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>I'm Available for Fall 2021</h3>
+      <p>I am always eager to learn and love challenges!</p>
+      <a href="mailto:kadro.heaven@gmail.com" class="classname">CONTACT ME</a>
+    </div>
+
+    <a class="footer-link" href="https://www.linkedin.com/in/heaven-kadro/">LinkedIn</a>
+	<a class="footer-link" href="https://github.com/Hkadro">GitHub</a>
+	<a class="footer-link" href="https://devpost.com/kadroheaven">devpost</a>
+    <p>© 2021 Heaven Kadro.</p>
+  </div>
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+	<script src="index.js"></script>
+
+</body>
+</html>

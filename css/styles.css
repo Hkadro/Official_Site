@@ -1,0 +1,275 @@
+
+hr{
+  color: lightyellow;
+  border: 4px dotted;
+  border-bottom: none;
+  width: 30%;
+}
+#app{
+   text-align: center;
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  font-size: 8rem;
+  border: 35px 25px;
+}
+h1{
+  widows: 10%;
+  color: rgb(224, 209, 141);
+  text-align: center;
+  font-family: 'Bilbo', cursive;
+  font-size: 7.625rem;
+  margin:0 auto 0 auto;
+}
+h2{
+  widows: 10%;
+  margin:0 auto 0 auto;
+  color: rgb(91, 181, 204);
+  text-align: center;
+  font-family: "Courier New", sans-serif;
+  font-size:2.5rem;
+}
+h3{
+  widows: 10%;
+  margin:0 auto 0 auto;
+  color: darkred;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+}
+p{
+  color: green;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  margin:25px auto 25px auto;
+  line-height: 2;
+}
+.Intro{
+  width:30%;
+  padding:auto;
+}
+.top-container{
+  background-color:#ff8080;
+  text-align: center;
+}
+.bottom-container{
+  text-align: center;
+  background-color: #c6f1d6;
+}
+.big-container{
+  background-color: #fff5ab;
+}
+.projects{
+  width: 50%;
+  margin: 0 auto;
+}
+.skills{
+  padding-bottom: 50px;
+}
+.skill-row{
+  width:50%;
+  margin:50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.carousel-item{
+  margin-top: 50px;
+  height: 400px;
+  margin-bottom: 150px;
+}
+.book{
+  float: right;
+  width:25%;
+  margin-left: 30px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #e0f5b9;
+}
+.Computer{
+  float:left;
+  width:25%;
+  height: 100px;
+  width: 200px;
+  margin-right: 30px;
+}
+.contact-me{
+  background-color: #e0f5b9;
+  margin-bottom: 20px;
+}
+.middle-container{
+  text-align: center;
+  background-color: #ffba92;
+}
+.classname {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #66bede), color-stop(1, #408c99) );
+	background:-moz-linear-gradient( center top, #66bede 5%, #408c99 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#66bede', endColorstr='#408c99');
+	background-color:#66bede;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:40px;
+	line-height:40px;
+width:120px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #3d768a;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #66bede) );
+	background:-moz-linear-gradient( center top, #408c99 5%, #66bede 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#66bede');
+	background-color:#408c99;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+.next-container{
+	background-color: #f6dfeb;
+	padding: 20px 80px;
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
