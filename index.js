@@ -10,7 +10,10 @@ typewriter.typeString(' Hello I\'m Heaven')
     .typeString(' A Senior CS Student')
     .pauseFor(2500)
     .deleteAll()
-    .typeString('Enjoy Your Visit')
+    .typeString(' Nice to meet you')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString(' Enjoy Your Visit')
     .pauseFor(2500)
     .start();
 
