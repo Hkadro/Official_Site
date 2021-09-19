@@ -143,6 +143,14 @@ width:120px;
 	position:relative;
 	top:1px;
 }
+.gaming-container{
+  padding: 20px 80px;
+  background-color: #CDF0EA;
+}
+
+.video{
+  margin-left:25%;
+}
 
 .next-container{
 	background-color: #f6dfeb;
